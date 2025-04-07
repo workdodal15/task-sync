@@ -1,0 +1,25 @@
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+nginx.conf
+
+# Node modules (installed within Dockerfile)
+node_modules
+
+# Build output (generated within Dockerfile)
+dist
+
+# NPM debug logs
+npm-debug.log*
+npm-debug.*
+
+# Env files (handle secrets/config separately)
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db 
